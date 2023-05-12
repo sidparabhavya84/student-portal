@@ -6,7 +6,6 @@ import { Google } from 'react-bootstrap-icons'
 import { logInGoogle, logInInitiate } from '../../service/action/Auth.action'
 import './LogIn.css'
 
-
 function SignUp() {
 
     const navigate = useNavigate()

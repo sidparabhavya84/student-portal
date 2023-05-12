@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux';
 function SkeletonLoader() {
 
     const { studentList } = useSelector(state => state.studentReducer)
-
     return (
         <>
             <Container>

@@ -42,7 +42,6 @@ export const GetInfo = (data) => {
     }
 }
 
-
 export const GetInfoAsync = () => {
     return dispatch => {
 

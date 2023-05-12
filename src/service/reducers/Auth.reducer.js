@@ -6,7 +6,6 @@ const initialState = {
     error: null
 }
 const AuthReducer = (state = initialState, action) => {
-
     switch (action.type) {
         case SIGNUP_SUCCESS:
             return {

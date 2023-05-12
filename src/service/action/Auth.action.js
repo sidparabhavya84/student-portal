@@ -4,7 +4,6 @@ import { signInWithPopup, GoogleAuthProvider, signOut, createUserWithEmailAndPas
 
 const provider = new GoogleAuthProvider();
 
-
 const SignUpSuccess = (user) => {
     return {
         type : SIGNUP_SUCCESS,

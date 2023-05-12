@@ -22,7 +22,6 @@ function EditStu(props) {
         setInitial({ ...initial, [name]: value })
 
     }
-
     const handleSubmit = (e) => {
 
         e.preventDefault()

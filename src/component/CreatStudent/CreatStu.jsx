@@ -4,7 +4,6 @@ import { createStu } from '../../service/action/StudentList.ation'
 import { useDispatch, useSelector } from 'react-redux'
 import './CreatStu.css'
 
-
 function Student(props) {
 
     const [initial, setInitial] = useState({

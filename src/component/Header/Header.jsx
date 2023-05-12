@@ -6,7 +6,6 @@ import { logOut } from '../../service/action/Auth.action';
 import './Header.css';
 
 function Header() {
-
     const { user } = useSelector(state => state.AuthReducer)
     const dispatch = useDispatch()
 

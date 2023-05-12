@@ -42,8 +42,7 @@ const StudentReducer = (state = initialState, action) => {
             }
             break;
 
-        case UPDATE_STU:
-            
+        case UPDATE_STU:    
             return {
                 ...state,
                 studentInfo: {},

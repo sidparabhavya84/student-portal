@@ -9,7 +9,6 @@ import SignUp from './component/SignUp/SignUp';
 import LogIn from './component/LogIn/LogIn';
 import Skeleton from './component/Skeleton/Skeleton';
 function App() {
-
   const [isEdit, setisEdit] = useState(false)
 
   const handleEdit = () => {

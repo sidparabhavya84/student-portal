@@ -5,7 +5,6 @@ const initialState = {
     user: null,
     error: null
 }
-
 const AuthReducer = (state = initialState, action) => {
 
     switch (action.type) {

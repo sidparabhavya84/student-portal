@@ -7,6 +7,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import { DeleteStud, GetInfo, getStud, getStuds } from '../../service/action/StudentList.ation';
 import { useNavigate } from 'react-router-dom';
 
+
 function ViewStudent({ handleEdit }) {
 
     const dispatch = useDispatch({ handleEdit })

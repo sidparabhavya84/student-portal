@@ -3,7 +3,6 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css'
 import { Button, Container, Table } from 'react-bootstrap'
 import { useSelector } from 'react-redux';
-
 function SkeletonLoader() {
 
     const { studentList } = useSelector(state => state.studentReducer)

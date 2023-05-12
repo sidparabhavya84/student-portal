@@ -65,8 +65,6 @@ function Student(props) {
                                 <Form.Control type="text" placeholder="Enter lastname" name='lname' value={initial.lname} onChange={(e) => (handleChange(e))} />
                             </Form.Group>
 
-
-
                             <Form.Group className="col-6 mb-3 px-3">
                                 <Form.Label>Email :</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" name='email' value={initial.email} onChange={(e) => (handleChange(e))} />
@@ -76,9 +74,6 @@ function Student(props) {
                                 <Form.Label>Mobile No :</Form.Label>
                                 <Form.Control type="text" placeholder="Enter mobile number" name='mobile_no' value={initial.mobile_no} onChange={(e) => (handleChange(e))} />
                             </Form.Group>
-
-
-
                             <Form.Group className="col-6 mb-3 px-3">
                                 <Form.Label>Parents No :</Form.Label>
                                 <Form.Control type="text" placeholder="Enter parents number" name='parents_no' value={initial.parents_no} onChange={(e) => (handleChange(e))} />

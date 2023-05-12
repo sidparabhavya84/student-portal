@@ -13,7 +13,6 @@ function Header() {
     const handleLogOut = () => {
         dispatch(logOut())
     }
-
     return (
         <>
             <header className='bg-dark'>

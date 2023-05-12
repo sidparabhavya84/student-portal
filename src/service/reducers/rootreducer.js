@@ -5,5 +5,4 @@ import AuthReducer from "./Auth.reducer";
 const rootReducer = combineReducers ({
     studentReducer,AuthReducer
 })
-
 export default rootReducer;

@@ -106,6 +106,7 @@ function SignUp() {
                     </div>
                 </div>
             </>
+            
         )
     }
 }

@@ -43,13 +43,7 @@ const StudentReducer = (state = initialState, action) => {
             break;
 
         case UPDATE_STU:
-            // const UpdateStu = state.studentList.map((Stu) => {
-            //     if (Stu.id === action.payload.id) {
-
-            //         return action.payload
-            //     }
-            //     return Stu
-            // })
+            
             return {
                 ...state,
                 studentInfo: {},
